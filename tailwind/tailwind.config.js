@@ -3,15 +3,15 @@ export default {
   content: [],
   theme: {
     extend: {},
+    colors: {
+      black: '#000000ff',
+      lightgrey: '#EEF1FF',
+      grey: '#81828C',
+      white:' #ffffffff',
+      blue: '#463ADD',
+      vert: '#62FF00'
+    },
   },
   plugins: [],
-  colors: {
-    black: rgba(0, 0, 0, 1),
-    lightgrey: rgba(238, 241, 255, 1),
-    grey: rgba(129, 130, 140, 1),
-    white: rgba(255, 255, 255, 1),
-    blue: rgba(70, 58, 221, 1),
-    violet: rgba(255, 0, 251, 1)
-  },
 }
 
