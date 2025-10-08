@@ -1,8 +1,10 @@
 <template>
   <main class="flex min-h-screen">
       <Nav/>
-      <div>
+      <div class="w-screen">
         <Header/>
+
+        <Post/>
       </div>
   </main>
 </template>
