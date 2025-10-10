@@ -1,7 +1,7 @@
 <template>
   <main class="min-h-screen lg:flex">
       <Nav/>
-      <section class="w-screen">
+      <section class="w-screen h-screen">
         <Header/>
 
         <div class="flex1 justify-items-center gap-3 max-sm:p-4 max-sm:flex-col sm:p-4 sm:flex-col md:p-4 md:flex-col lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-3">
