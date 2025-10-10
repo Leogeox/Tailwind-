@@ -4,10 +4,12 @@ import { PlusSquare } from 'lucide-vue-next';
 
 <template>
     <div class="flex justify-between pb-2 border-b-2 border-border">
-        <div class="m-4 text-2xl font-public_sans font-semibold ">My Catalogs</div>
+        <div class="m-4 text-2xl font-public_sans font-semibold max-sm:m-0 max-sm:mt-4 max-sm:ml-2">My Catalogs</div>
 
-        <button class="flex m-3 bg-blue p-2 pl-3 pr-3 text-white rounded-md font-medium gap-2">
-            <PlusSquare/>
+        <button class="flex items-center m-3 bg-blue hover:bg-darkblue transition p-2 text-white rounded-md font-medium gap-2">
+            <div class="animate-pulse">
+                <PlusSquare/>
+            </div>
             <p>Create catalog</p>
         </button>
     </div>

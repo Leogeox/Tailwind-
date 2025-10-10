@@ -12,9 +12,11 @@ export default {
         grey: '#81828C',
         white:' #ffffffff',
         blue: '#463ADD',
+        darkblue: '#342c9eff',
         violet: '#FF00FB',
         border: '#E0E1E6',
         tag_bg: '#F9F9FB',
+        tag_bg_hover: '#df50ddff',
         tag_border: '#CDCED6',
       },
       fontFamily: {
