@@ -5,6 +5,5 @@
             TAILWIND
             </p>
         </div>
-
     </div>
 </template>
