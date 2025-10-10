@@ -1,5 +1,5 @@
 <template>
-    <section class="flex">
+    <section class="flex items-center max-sm:flex-col sm:flex-col md:flex-row lg:flex-row">
         <li class="flex flex-col items-stretch w-1/3 h-48 m-4 mt-10 border-2 border-border rounded-lg p-3 list-none">
             <div class="pl-2 text-sm">
                 <div class="font-bold font-medium">Create catalog</div>
@@ -13,16 +13,16 @@
         </li>
 
         <li class="w-1/3 h-48 m-4 mt-10 border-2 border-border rounded-lg p-3 list-none">
-            <div class="flex justify-between mt-1 text-xl font-bold">
+            <div class="flex justify-between mt-1 font-bold max-sm:text-sm sm:text-sm md:text-1xl lg:text-xl">
                 <h2 class="font-semi_bold">Christmas 2024</h2>
-                <div class="mr-4">...</div>
+                <div class="mr-4 max-sm:hidden sm:hidden md:inline lg:inline">...</div>
             </div>
             
-            <div class="flex mt-8">
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+            <div class="flex mt-8 max-sm:flex-wrap sm:flex-wrap">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     Sneakers
                 </button>
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     boots
                 </button>
             </div>
@@ -34,26 +34,27 @@
 
         </li>
 
-        <li class="w-1/3 h-48 m-4 mt-10 border-2 border-border rounded-lg p-3 list-none">
-            <div class="flex justify-between -mt-2 text-xl font-bold">
-                    <h2 class="pr-20 font-semi_bold">A very big title for a catalog with many thing</h2>
-                    <div class="mr-4">...</div>
+        <li class="w-1/3 h-48 border-2 border-border rounded-lg p-3 list-none m-4 mt-10">
+            <div class="flex justify-between -mt-2 font-bold max-sm:text-sm sm:text-sm md:text-sm lg:text-xl"> 
+                <!-- max-sm:text-sm -->
+                    <h2 class="font-semi_bold sm:pr-5 md:pr-1">A very big title for a catalog with many thing</h2>
+                    <div class="mr-4 max-sm:hidden sm:hidden md:inline lg:inline">...</div>
             </div>
 
-            <div class="flex mt-4">
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+            <div class="flex mt-4 max-sm:flex-wrap sm:flex-wrap md:flex-wrap lg:flex-nowrap">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     Sneakers
                 </button>
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     boots
                 </button>
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     Belt
                 </button>
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     Socks
                 </button>
-                <button class="bg-tag_bg border-tag_border border-2 rounded-md text-sm px-3 m-1 font-regular">
+                <button class="bg-tag_bg border-tag_border border-2 rounded-md px-3 m-1 font-regular max-sm:text-xs sm:text-xs md:text-sm lg:text-sm">
                     +3
                 </button>
             </div>
