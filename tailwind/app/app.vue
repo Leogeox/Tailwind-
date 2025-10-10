@@ -4,7 +4,7 @@
     <section class="w-screen h-screen">
       <Header/>
 
-      <div class="flex1 justify-items-center gap-3 max-sm:p-4 max-sm:flex-col sm:p-4 sm:flex-col md:p-4 md:flex-col lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-3">
+      <div class="flex1 justify-items-center gap-3 p-4 grid lg:grid-cols-2 xl:grid-cols-3">
         <Post class="items-stretch">
           <div class="pl-2 text-sm">
             <div class="font-bold font-medium">Create catalog</div>
@@ -24,9 +24,7 @@
               <Tag>boots</Tag>
           </div>
           
-          <div class="text-sm">
-              <Bottompost/>
-          </div>
+          <Bottompost/>
         </Post>
 
         <Post class="items-stretch">
@@ -43,12 +41,9 @@
               <Tag>+3</Tag>
           </div>
 
-          <div class="text-sm">
-              <Bottompost/>
-          </div>
+          <Bottompost/>
         </Post> 
       </div>
-
     </section>
   </main>
 </template>
