@@ -2,7 +2,13 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      // screens: {
+      //   breakpoint_xs: '1400px',
+      //   breakpoint_2xl: '100rem',
+      //   breakpoint_3xl: '120rem',
+      // }
+    },
     colors: {
       black: '#000000ff',
       lightgrey: '#EEF1FF',
