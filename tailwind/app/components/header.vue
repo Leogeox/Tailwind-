@@ -9,5 +9,3 @@ import { PlusSquare } from 'lucide-vue-next';
         <Button class="items-center gap-2 m-3"/>
     </div>
 </template>
-
-// slot
